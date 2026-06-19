@@ -1,4 +1,8 @@
 <?php
+/* ===============================================================
+ * BAGIAN PENGATURAN TEMA (FUNCTIONS)
+ * Di sini tempat mendaftarkan file CSS, Logo, dan Fitur WordPress lainnya
+ * =============================================================== */
 function lovable_theme_enqueue_assets() {
     // Theme style.css is still required by WordPress to read the Theme Name metadata
     wp_enqueue_style('lovable-style', get_stylesheet_uri(), array(), '1.1.0');

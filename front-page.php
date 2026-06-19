@@ -1,6 +1,10 @@
 <?php get_header(); ?>
     <main>
       <!-- HERO SECTION -->
+      <!-- =============================================================== -->
+      <!-- BAGIAN HERO / BERANDA (LAYAR PERTAMA KALI MUNCUL SAAT WEB DIBUKA) -->
+      <!-- Teks judul utama, tombol WhatsApp, dan Gambar Robot CS ada di sini -->
+      <!-- =============================================================== -->
       <section id="home" class="relative pt-32 lg:pt-16 pb-20 lg:pb-36 overflow-hidden">
         <div class="blob bg-brand/10 w-[400px] h-[400px] -top-40 -left-20"></div>
         <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative">
@@ -118,6 +122,10 @@
       </section>
 
       <!-- PROBLEM SECTION -->
+      <!-- =============================================================== -->
+      <!-- BAGIAN PROBLEM (MASALAH YANG DIHADAPI CUSTOMER) -->
+      <!-- 4 Kotak masalah seperti "Customer Service Slow Respon", dll ada di sini -->
+      <!-- =============================================================== -->
       <section id="problem" class="py-12">
         <div class="max-w-6xl mx-auto px-6">
           <div class="text-center max-w-2xl mx-auto mb-14">
@@ -151,6 +159,10 @@
       </section>
 
       <!-- SOLUTION SECTION -->
+      <!-- =============================================================== -->
+      <!-- BAGIAN SOLUTION (SOLUSI AI YANG KITA TAWARKAN) -->
+      <!-- Fitur Chat 24/7, Konsultan, dan Efisiensi Bisnis ada di bagian ini -->
+      <!-- =============================================================== -->
       <section id="solution" class="py-12">
         <div class="max-w-7xl mx-auto px-6">
           <div class="text-center max-w-2xl mx-auto mb-6">
@@ -320,6 +332,10 @@
       </section>
 
       <!-- TESTIMONY SECTION -->
+      <!-- =============================================================== -->
+      <!-- BAGIAN TESTIMONY (APA KATA MEREKA / REVIEW PELANGGAN) -->
+      <!-- Slider ulasan klien dan robot testimonial ada di bagian ini -->
+      <!-- =============================================================== -->
       <section id="testimony" class="py-24 md:py-32 bg-slate-50 relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 relative z-10">
           <div class="text-center max-w-3xl mx-auto mb-16">
@@ -498,6 +514,10 @@
       </section>
 
       <!-- WEBSITE SOLUTION SECTION -->
+      <!-- =============================================================== -->
+      <!-- BAGIAN WEBSITE SOLUTION (KEUNTUNGAN MEMBUAT WEBSITE DI KITA) -->
+      <!-- Fitur Naikin Trust, Mudah Ditemukan (SEO), dll ada di sini -->
+      <!-- =============================================================== -->
       <section id="website-solution" class="py-12 md:py-24 bg-white relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-6">
           <div class="text-center mb-16">
@@ -588,6 +608,10 @@
       </section>
 
       <!-- PRICING SECTION -->
+      <!-- =============================================================== -->
+      <!-- BAGIAN PRICE / HARGA (PILIHAN PAKET LANGGANAN) -->
+      <!-- Daftar harga mulai dari Startup, Business, Enterprise ada di sini -->
+      <!-- =============================================================== -->
       <section id="price" class="py-12 relative overflow-hidden">
         <div class="max-w-6xl mx-auto px-6 relative">
           <!-- Subtle blue glow behind title -->

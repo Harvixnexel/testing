@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!-- =============================================================== -->
+<!-- BAGIAN HEADER (KEPALA WEBSITE) -->
+<!-- Menu navigasi atas (Home, Problem, Solution, dll) diatur di file ini -->
+<!-- =============================================================== -->
 <html <?php language_attributes(); ?> class="scroll-smooth">
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">

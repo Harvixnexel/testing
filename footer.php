@@ -1,4 +1,7 @@
-    <!-- FOOTER -->
+    <!-- =============================================================== -->
+    <!-- BAGIAN FOOTER (KAKI WEBSITE) -->
+    <!-- Logo bawah, Hak Cipta, dan script tambahan ada di file ini -->
+    <!-- =============================================================== -->
     <footer class="border-t border-border bg-muted/40">
       <div class="max-w-6xl mx-auto px-6 py-14 grid md:grid-cols-3 gap-10">
         <div>
