@@ -36,7 +36,7 @@
             
             <!-- Main Robot Image -->
             <div class="relative w-full max-w-md z-10 animate-scale-in" style="animation-delay: 200ms;">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero.png" alt="AI Customer Service" class="animate-float w-full drop-shadow-2xl" />
+              <img src="https://nextscsale.vercel.app/assets/images/hero.png" alt="AI Customer Service" class="animate-float w-full drop-shadow-2xl" />
             </div>
             
             <!-- Orbit Badges (Logos) - Interactive & Floating -->
@@ -195,7 +195,7 @@
                   <div class="hidden md:block w-px h-48 bg-gradient-to-b from-slate-100 via-slate-200 to-slate-100 md:order-2"></div>
                   <div class="relative flex items-center justify-center md:order-3">
                     <div class="absolute w-72 h-72 rounded-full bg-gradient-to-tr from-brand/20 to-brand/5 blur-3xl opacity-70 z-0"></div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chat-247.png" alt="Tangani Chat 24/7" class="relative w-full max-w-xs md:max-w-sm drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)] animate-float" />
+                    <img src="https://nextscsale.vercel.app/assets/images/chat-247.png" alt="Tangani Chat 24/7" class="relative w-full max-w-xs md:max-w-sm drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)] animate-float" />
                   </div>
                 </div>
               </div>
@@ -217,7 +217,7 @@
                 <div class="grid md:grid-cols-[1fr_auto_1fr] gap-8 md:gap-12 items-center">
                   <div class="relative flex items-center justify-center md:order-1">
                     <div class="absolute w-72 h-72 rounded-full bg-gradient-to-tr from-brand/20 to-brand/5 blur-3xl opacity-70 z-0"></div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/consultant.png" alt="Hadir Sebagai Konsultan" class="relative w-full max-w-xs md:max-w-sm drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)] animate-float" />
+                    <img src="https://nextscsale.vercel.app/assets/images/consultant.png" alt="Hadir Sebagai Konsultan" class="relative w-full max-w-xs md:max-w-sm drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)] animate-float" />
                   </div>
                   <!-- Vertical Line -->
                   <div class="hidden md:block w-px h-48 bg-gradient-to-b from-slate-100 via-slate-200 to-slate-100 md:order-2"></div>
@@ -336,7 +336,7 @@
             <div class="lg:col-span-5 relative hidden md:flex items-center justify-end pr-0">
               <!-- Soft blue radial glow behind robot -->
               <div class="absolute w-72 h-72 bg-blue-400/20 rounded-full blur-[80px] pointer-events-none z-0"></div>
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial-robot-new.png" alt="Testimonial" class="relative z-10 w-[55%] md:w-[60%] lg:w-[65%] max-w-[280px] md:max-w-[320px] object-contain animate-float drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)]" />
+              <img src="https://nextscsale.vercel.app/assets/images/testimonial-robot-new.png" alt="Testimonial" class="relative z-10 w-[55%] md:w-[60%] lg:w-[65%] max-w-[280px] md:max-w-[320px] object-contain animate-float drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)]" />
             </div>
             <div class="lg:col-span-7 relative px-0 md:px-4 min-w-0 w-full">
               <div class="w-full min-w-0 max-w-[520px] md:max-w-[600px] mx-auto relative group px-0 md:px-10">
@@ -536,7 +536,7 @@
                 <div class="hidden md:block w-px h-48 bg-gradient-to-b from-slate-100 via-slate-200 to-slate-100 md:order-2"></div>
                 <div class="relative flex items-center justify-center md:order-3">
                   <div class="absolute w-72 h-72 rounded-full bg-gradient-to-tr from-brand/20 to-brand/5 blur-3xl opacity-70 z-0"></div>
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/trust-brand.png" alt="Naikin Trust" class="relative w-full max-w-xs md:max-w-sm drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)] animate-float" />
+                  <img src="https://nextscsale.vercel.app/assets/images/trust-brand.png" alt="Naikin Trust" class="relative w-full max-w-xs md:max-w-sm drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)] animate-float" />
                 </div>
               </div>
             </div>
@@ -556,7 +556,7 @@
               <div class="grid md:grid-cols-[1fr_auto_1fr] gap-8 md:gap-12 items-center">
                 <div class="relative flex items-center justify-center md:order-1">
                   <div class="absolute w-72 h-72 rounded-full bg-gradient-to-tr from-brand/20 to-brand/5 blur-3xl opacity-70 z-0"></div>
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/seo-found.png" alt="Mudah Ditemukan" class="relative w-full max-w-xs md:max-w-sm drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)] animate-float" />
+                  <img src="https://nextscsale.vercel.app/assets/images/seo-found.png" alt="Mudah Ditemukan" class="relative w-full max-w-xs md:max-w-sm drop-shadow-[0_15px_30px_rgba(37,99,235,0.15)] animate-float" />
                 </div>
                 <!-- Vertical Line -->
                 <div class="hidden md:block w-px h-48 bg-gradient-to-b from-slate-100 via-slate-200 to-slate-100 md:order-2"></div>
