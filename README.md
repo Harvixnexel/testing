@@ -33,21 +33,29 @@ Jika Anda hanya ingin melihat tampilan desainnya atau memodifikasi CSS/JS secara
 4. **Cukup klik dua kali (double click)** file tersebut, dan website akan langsung terbuka di browser bawaan Anda (Chrome/Edge/Safari).
 5. **(Rekomendasi untuk Developer)**: Jika Anda menggunakan kode editor seperti **Visual Studio Code**, sangat disarankan untuk menginstal ekstensi **Live Server**. Buka folder ini di VS Code, klik kanan pada `index.html`, lalu pilih *"Open with Live Server"*. Ini akan membuat website otomatis me-refresh ketika Anda menyimpan perubahan kode.
 
-### Cara 2: Menjalankan Versi WordPress (Dinamis)
-Jika Anda ingin mengintegrasikan tema ini ke dalam CMS WordPress agar kontennya bisa diubah dari *dashboard* admin, Anda memerlukan *Local Web Server* seperti **XAMPP**, **MAMP**, atau **Local by Flywheel**.
+### Cara 2: Menjalankan Local Web Server (Direkomendasikan)
+Jika Anda ingin melihat website berjalan layaknya di server asli (agar semua aset seperti gambar dan animasi termuat dengan sempurna), Anda bisa menjalankan *Local Web Server* di port `8000`.
 
-**Langkah-langkah menggunakan XAMPP:**
-1. Pastikan **XAMPP** sudah terinstal di PC Anda. Nyalakan modul **Apache** dan **MySQL** dari XAMPP Control Panel.
-2. Unduh dan pasang WordPress di folder `htdocs` (misalnya: `C:\xampp\htdocs\nextscale`).
-3. Selesaikan instalasi awal WordPress melalui browser (biasanya `http://localhost/nextscale`).
-4. *Copy* (Salin) seluruh folder repository ini, lalu *Paste* (Tempel) ke dalam folder *themes* WordPress Anda:
-   **`C:\xampp\htdocs\nextscale\wp-content\themes\nextscale-theme`**
-5. Login ke *Dashboard Admin* WordPress Anda (`http://localhost/nextscale/wp-admin`).
-6. Masuk ke menu **Appearance (Tampilan) > Themes (Tema)**.
-7. Cari tema dengan nama NextScale, lalu klik **Activate (Aktifkan)**.
-8. Kunjungi halaman utama website Anda, dan tampilan tema akan langsung aktif!
+**Menggunakan Python (Jika terinstal di PC Anda):**
+1. Buka Terminal / Command Prompt / PowerShell.
+2. Arahkan direktori (CD) ke folder repository ini.
+   ```bash
+   cd letak/folder/nextscale
+   ```
+3. Jalankan perintah berikut:
+   ```bash
+   python -m http.server 8000
+   ```
+4. Buka browser dan kunjungi: **`http://localhost:8000`**
 
-*(Catatan: File `front-page.php`, `header.php`, `footer.php`, dan `functions.php` sudah disiapkan untuk mempermudah integrasi ini).*
+**Menggunakan PHP (Jika terinstal di PC Anda):**
+Apabila Anda lebih suka menggunakan PHP, langkahnya sama seperti di atas, cukup gunakan perintah ini di terminal:
+```bash
+php -S localhost:8000
+```
+Lalu buka **`http://localhost:8000`** di browser Anda.
+
+*(Catatan: Semua metode di atas akan secara otomatis memuat file `index.html` sebagai halaman utama).*
 
 ---
 
